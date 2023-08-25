@@ -28,3 +28,8 @@ chatServer.on('connection', function (client) {
 });
 
 chatServer.listen(9000);
+
+//run in console: node chat-tcp.js
+//station 1 --> run in terminal: telnet localhost 9000
+//station 2 --> run in terminal: telnet localhost 9000
+//begin conversation!
